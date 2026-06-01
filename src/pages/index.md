@@ -1,3 +1,8 @@
+---
+layout: ../layouts/PaperLayout.astro
+title: Empirical Analysis of AI-Induced Dependency Hallucinations
+---
+
 # Empirical Analysis of AI-Induced Dependency Hallucinations in Public Version Control Systems
 
 **Authors:** Fabrizio Salmi, *et al.*
@@ -5,8 +10,10 @@
 
 ---
 
-## Abstract
-The integration of Large Language Models (LLMs) into the software development lifecycle introduces non-deterministic variables in code generation, particularly concerning dependency manifesting. This study conducts a large-scale empirical analysis of public version control repositories to quantify the prevalence of hallucinated dependencies in production manifests (e.g., `requirements.txt`, `package.json`). We present an anonymized dataset of 1,000 verified instances wherein non-existent package names—generated via LLM hallucination—were committed to public repositories. We propose a formal taxonomy for these artifacts: *Pure Fabrication*, *OS-to-Ecosystem Confusion*, *CLI-Flag Confusion*, and *Truncated Generation*. As these phantom packages remain unregistered, they constitute a latent attack surface for Phantom Dependency Squatting. To evaluate maintainer responsiveness, we conducted an observational study via an automated, ethically aligned remediation pipeline. This pipeline evaluates repository-level security policies (e.g., Private Vulnerability Reporting constraints) prior to issuing automated patches, establishing a baseline for Mean Time To Remediation (MTTR) within the open-source community.
+<div class="abstract">
+  <h2>Abstract</h2>
+  <p>The integration of Large Language Models (LLMs) into the software development lifecycle introduces non-deterministic variables in code generation, particularly concerning dependency manifesting. This study conducts a large-scale empirical analysis of public version control repositories to quantify the prevalence of hallucinated dependencies in production manifests (e.g., <code>requirements.txt</code>, <code>package.json</code>). We present an anonymized dataset of 1,000 verified instances wherein non-existent package names—generated via LLM hallucination—were committed to public repositories. We propose a formal taxonomy for these artifacts: <em>Pure Fabrication</em>, <em>OS-to-Ecosystem Confusion</em>, <em>CLI-Flag Confusion</em>, and <em>Truncated Generation</em>. As these phantom packages remain unregistered, they constitute a latent attack surface for Phantom Dependency Squatting. To evaluate maintainer responsiveness, we conducted an observational study via an automated, ethically aligned remediation pipeline. This pipeline evaluates repository-level security policies (e.g., Private Vulnerability Reporting constraints) prior to issuing automated patches, establishing a baseline for Mean Time To Remediation (MTTR) within the open-source community.</p>
+</div>
 
 ---
 
