@@ -1,21 +1,29 @@
 # Empirical Analysis of AI-Induced Dependency Hallucinations
 
-Welcome to the official repository hosting the academic research paper on **AI-Induced Dependency Hallucinations and Phantom Dependency Squatting**.
+## Table of Contents
+- [Overview](#overview)
+- [Research Paper](#research-paper)
+- [Mitigation Tool](#mitigation-tool)
+- [Legal and Ethical Disclaimer](#legal-and-ethical-disclaimer)
 
-## 📄 Read the Paper
+## Overview
+This repository hosts the academic research paper on AI-Induced Dependency Hallucinations and Phantom Dependency Squatting. The study investigates the systemic supply chain vulnerabilities introduced by Large Language Models (LLMs) generating fabricated software dependencies.
+
+## Research Paper
 The full, formatted academic paper is published via GitHub Pages. 
-👉 **[Read the Full Research Paper Here](https://fabriziosalmi.github.io/ai-hallucination-research/)**
 
-## 🛡️ Mitigation Tool: AI Dependency Guard
-As part of our commitment to Responsible Disclosure, we have developed a deterministic, zero-dependency mitigation tool. If you are a developer looking to protect your CI/CD pipelines from Phantom Dependency Squatting, please utilize our open-source GitHub Action.
+[Read the Full Research Paper Here](https://fabriziosalmi.github.io/ai-hallucination-research/)
 
-👉 **[AI Dependency Guard (GitHub Marketplace)](https://github.com/fabriziosalmi/ai-dependency-guard)**
+## Mitigation Tool
+As part of the research team's commitment to Responsible Disclosure, we provide a deterministic, zero-dependency mitigation tool. Developers seeking to protect Continuous Integration / Continuous Deployment (CI/CD) pipelines from Phantom Dependency Squatting should utilize the open-source GitHub Action.
 
-## ⚖️ Legal & Ethical Disclaimer
+[AI Dependency Guard (GitHub Marketplace)](https://github.com/fabriziosalmi/ai-dependency-guard)
+
+## Legal and Ethical Disclaimer
 This repository serves exclusively as an academic publication and documentation host.
-- **No Exploitation:** The researchers simulated the attack surface but explicitly abstained from registering any malicious payloads or phantom packages in public registries.
-- **Anonymization:** All repository names, maintainer identities, and specific organizational targets evaluated during the Mean Time To Remediation (MTTR) study have been stripped from this publication and presented strictly in aggregate to ensure comprehensive privacy and security.
-- **Zero Liability:** The research findings and the associated mitigation tools are provided "as-is" without warranty of any kind. 
 
----
-*For inquiries regarding the dataset or the automated remediation pipeline architecture, please refer to the methodology section within the published paper.*
+- **No Exploitation:** The researchers simulated the attack surface but explicitly abstained from registering malicious payloads or phantom packages in public registries.
+- **Anonymization:** The research team stripped all repository names, maintainer identities, and specific organizational targets evaluated during the Mean Time To Remediation (MTTR) study from this publication. We present all data strictly in aggregate to ensure comprehensive privacy and security.
+- **Zero Liability:** The authors provide the research findings and associated mitigation tools "as-is" without warranty of any kind. 
+
+For inquiries regarding the dataset or the automated remediation pipeline architecture, refer to the methodology section within the published paper.
