@@ -30,7 +30,7 @@ jobs:
       # Pinned to a commit rather than @v1: a moving tag means trusting the
       # upstream repository not to change under us.
       - name: Run slopless
-        uses: fabriziosalmi/slopless@1f2b9d57379688d487e725baac6dfc1a3a296c15 # v1.12.0
+        uses: fabriziosalmi/slopless@b3a4017bc0e382013da28564dab3b5ee4e23f981 # v1.12.1
         with:
           patterns: "src/**/*.astro *.md"
           format: sarif
